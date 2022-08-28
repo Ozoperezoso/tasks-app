@@ -8,4 +8,32 @@
 html body{
   background-color:#121212;
   color: white;
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+}
+
+.tasks-app{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Tasks list */
+
+.tasks-main-list{
+  width: 600px;
+  min-height: 500px;
+  background-color: lightgray;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+h1{
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center; 
+  margin: 20px 0;
 }
