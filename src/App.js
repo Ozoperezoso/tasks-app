@@ -1,6 +1,6 @@
 import Logo from './components/Logo';
 import './App.css';
-import TaskForm from './components/TaskForm';
+import TaskList from './components/TaskList'
 
 function App() {
   return (
@@ -8,7 +8,8 @@ function App() {
       <Logo />
       <div className='tasks-main-list'>
         <h1>My Tasks</h1>
-        <TaskForm/>
+          <TaskList/>
+
       </div>
     </div>
   );
